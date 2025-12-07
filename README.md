@@ -103,7 +103,7 @@ Each recommendation card displays a **relevance score**, representing:
 - 📊 Weighted ranking adjustments
 - 🔗 Content-based embedding closeness
 
-**Score normalization:** Typically **0–0.2 range**
+**Score normalization:** Typically **0–0.05 range**
 
 **Key insight:**
 - 🟢 **Higher score** = **Higher ranking** = **More relevant**
@@ -195,12 +195,7 @@ The main production dashboard showing personalized product recommendations with 
 - 📝 Product titles: Smart Shorts Model 122, Pro Trail Shoe, Durable Socks
 - 💬 LLM-generated short descriptions for each product
 - 🔗 "Why this recommendation?" toggle links for expanded explanations
-- 📋 Copy ID buttons for easy product ID access
 - 🔄 Real-time refresh capability
-- 📊 User ID input and API Key management
-- 🔍 Search and sort functionality (Sort by score)
-- 📄 Pagination controls (Page 1 / 1)
-
 
 ---
 
@@ -526,6 +521,7 @@ For questions or issues:
 **Built with ❤️ Data Science Excellence**
 
 </div>
+
 
 
 
