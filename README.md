@@ -145,8 +145,8 @@ Each recommendation card displays a **relevance score**, representing:
                │
                ▼
         Final Response
-        ↓
-    Returned to UI
+               ↓
+        Returned to UI
 ```
 
 ---
@@ -187,7 +187,7 @@ This flow ensures **personalization**, **reasoning**, and **seamless user experi
 
 The main production dashboard showing personalized product recommendations with scores and LLM-generated descriptions:
 
-![Recommendation Dashboard](./images/img1.png)
+![Recommendation Dashboard](./readme images/Screenshot 2025-12-07 213008.png)
 
 **Dashboard Features:**
 - 🎨 Clean 3-column responsive grid layout with product cards
@@ -208,7 +208,7 @@ The main production dashboard showing personalized product recommendations with 
 
 The same dashboard showing expanded LLM explanations with detailed reasoning for why each product is recommended:
 
-![Recommendation Dashboard with Explanations](./images/img2.png)
+![Recommendation Dashboard with Explanations](./readme images/Screenshot 2025-12-07 212933.png)
 
 **Expanded Explanations:**
 - Card 1: "This product is recommended as you might be interested in smart athletic wear. The 'Smart Shorts' title suggests advanced features for enhanced comfort and performance. It's an excellent choice for those seeking innovative apparel for their active lifestyle."
@@ -526,5 +526,6 @@ For questions or issues:
 **Built with ❤️ Data Science Excellence**
 
 </div>
+
 
 
