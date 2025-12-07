@@ -187,7 +187,7 @@ This flow ensures **personalization**, **reasoning**, and **seamless user experi
 
 The main production dashboard showing personalized product recommendations with scores and LLM-generated descriptions:
 
-![Recommendation Dashboard](./readme images/Screenshot 2025-12-07 213008.png)
+![Recommendation Dashboard](./readme_img/img_1)
 
 **Dashboard Features:**
 - 🎨 Clean 3-column responsive grid layout with product cards
@@ -208,11 +208,11 @@ The main production dashboard showing personalized product recommendations with 
 
 The same dashboard showing expanded LLM explanations with detailed reasoning for why each product is recommended:
 
-![Recommendation Dashboard with Explanations](./readme images/Screenshot 2025-12-07 212933.png)
+![Recommendation Dashboard with Explanations](./readme_img/img_2)
 
 **Expanded Explanations:**
-- Card 1: "This product is recommended as you might be interested in smart athletic wear. The 'Smart Shorts' title suggests advanced features for enhanced comfort and performance. It's an excellent choice for those seeking innovative apparel for their active lifestyle."
-- Card 5: "This product is recommended because you might be seeking specialized protection for your feet. The 'Waterproof Socks' title clearly indicates their ability to keep feet dry in challenging conditions. They are a great solution for outdoor activities..."
+- Card 1: "This product is recommended as you was interested in smart athletic wear. The 'Smart Shorts' with advanced features for enhanced comfort and performance. It's an excellent choice for those seeking innovative apparel for their active lifestyle."
+- Card 5: "This product is recommended because you were seeking specialized protection for your feet. The 'Waterproof Socks' title clearly indicates their ability to keep feet dry in challenging conditions. They are a great solution for outdoor activities..."
 
 ---
 
@@ -526,6 +526,7 @@ For questions or issues:
 **Built with ❤️ Data Science Excellence**
 
 </div>
+
 
 
 
