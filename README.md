@@ -238,12 +238,12 @@ The same dashboard showing expanded LLM explanations with detailed reasoning for
 
 ```json
 {
-  "user_id": 12345,
-  "total_recommendations": 10,
+  "user_id": U0000001,
+  "total_recommendations": 1,
   "top_recommendations": [
     {
       "rank": 1,
-      "product_id": "PROD_001",
+      "product_id": "P000001",
       "title": "Eco-Friendly Yoga Mat",
       "category": "Sports & Outdoors",
       "score": 0.1847,
@@ -260,25 +260,6 @@ The same dashboard showing expanded LLM explanations with detailed reasoning for
       ],
       "created_at": "2025-12-07T10:30:45Z"
     },
-    {
-      "rank": 2,
-      "product_id": "PROD_002",
-      "title": "Organic Cotton T-Shirt",
-      "category": "Apparel",
-      "score": 0.1623,
-      "confidence": "88.7%",
-      "semantic_similarity": 0.89,
-      "description": "100% organic cotton comfort wear",
-      "explanation": "You have shown strong interest in sustainable apparel. This product aligns with your values.",
-      "reasoning_factors": [
-        "Sustainable apparel interest",
-        "Organic product preference",
-        "Similar user purchases",
-        "High semantic similarity (0.89)",
-        "Behavioral consistency"
-      ],
-      "created_at": "2025-12-07T10:30:45Z"
-    }
   ],
   "model_info": {
     "model_type": "Hybrid Recommendation",
@@ -550,3 +531,4 @@ For questions or issues:
 **Built with ❤️ Data Science Excellence**
 
 </div>
+
