@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+numpy
+scipy
+pandas
+scikit-learn
+implicit
+python-dotenv
+firebase_admin
+google-generativeai 
+python-dotenv
+pillow

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  recommender:
+    build: .
+    image: recommender:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - INFERENCE_API_KEY=
+      - DATA_PATH=/app/Data
+    volumes:
+      - ./Data:/app/Data:ro
+    restart: unless-stopped

@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  recommender:
+    build: .
+    image: recommender:latest
+    container_name: recommender_service
+    ports:
+      - "8000:8000"
+    environment:
+      - INFERENCE_API_KEY=dev-key
+      - DATA_PATH="S:/E-commerce Recommendation system/hybrid_recommender/Data:/app/Data:ro"
+      - GOOGLE_APPLICATION_CREDENTIALS=/run/secrets/fb_service_account.json
+    volumes:
+      - "S:/E-commerce Recommendation system/hybrid_recommender/Data:/app/Data:ro"
+      - "./secrets/fb_service_account.json:/run/secrets/fb_service_account.json:ro"
+      - "./services/static/images:/app/services/static/images"
+    restart: unless-stopped
