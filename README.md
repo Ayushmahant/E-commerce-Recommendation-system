@@ -372,11 +372,14 @@ npm or yarn
 ```bash
 # Clone repository
 git clone <repository-url>
-cd project
+cd E-commerce Recommendation system
 
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
+#move to backend dir.
+cd hybrid_recommender
 
 # Install dependencies
 pip install fastapi uvicorn scikit-learn transformers pandas numpy
@@ -391,7 +394,7 @@ uvicorn main:app --reload
 
 ```bash
 # Navigate to frontend directory
-cd frontend
+cd recommender-dashboard
 
 # Install dependencies
 npm install
@@ -430,14 +433,6 @@ GET /recommend_for_me?user_id=12345&k=10
       "explanation": "This product is recommended because you prefer eco-friendly activewear...",
       "rank": 1
     },
-    {
-      "product_id": "PROD002",
-      "title": "Organic Cotton T-Shirt",
-      "score": 0.1623,
-      "description": "100% organic cotton comfort",
-      "explanation": "You have shown strong interest in sustainable apparel...",
-      "rank": 2
-    }
   ],
   "timestamp": "2025-12-07T10:30:45Z"
 }
@@ -531,4 +526,5 @@ For questions or issues:
 **Built with ❤️ Data Science Excellence**
 
 </div>
+
 
